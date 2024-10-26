@@ -7,7 +7,7 @@ body {
     max-width: 2000px;
     height: 700px;
     margin: 0 auto;
-    background-image: url('images/2.jpg');
+    background-image: url('images/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,31 +112,52 @@ body {
     background: rgb(226, 218, 214);
 }
 
-.card {
-    padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    background-color: #fff;
+/* Page Layout */
+.page-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Makes space between content and sidebar */
+    align-items: flex-start;
+    padding: 20px;
 }
 
-.card h3 {
-    margin-top: 1rem;
-    color: rgb(100, 130, 173);
-    text-align: left;
+.page-content {
+    flex: 3;
+    padding-right: 20px;
 }
 
-.card p {
-    color: rgb(0, 0, 0);
-    text-align: left;
+.page-sidebar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    margin-left: 20px; /* Adds space between content and sidebar */
+    position: sticky;
+    top: 20px; /* Keeps sidebar fixed on scroll */
+    height: fit-content;
+    text-align: center;
 }
 
-.feather-icon {
-    width: 40px;
-    height: 40px;
-    color: rgb(196, 223, 223);
-    margin-right: 50rem;
+/* Image Styling */
+.blog-media img, .page-sidebar img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
 }
+
+.page-sidebar .figure img {
+    width: 80px; /* Smaller images in the sidebar */
+    height: 80px; /* Maintain consistent size */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.page-sidebar .figure {
+    padding: 5px;
+}
+
 
 .btn-primary {
     background-color: rgb(100, 130, 173);
