@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(248, 246, 244);
+}
+
+.main-bg {
+    padding: 2rem;
+    max-width: 2000px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url('images/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+    .main-bg {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .main-bg h2 {
+        font-size: 2rem;
+   }
+
+    .main-bg h3 {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .main-bg p {
+        font-size: 1rem;
+    }
+}
+
+.main-bg h2 {
+    color: rgb(248, 246, 244);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 10rem;
+}
+
+.main-bg h3 {
+    color: rgb(248, 246, 244);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.main-bg p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    color: rgb(100, 130, 173) !important;
+}
+
+.custom-navbar {
+    background-color: rgb(226, 218, 214);
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(100, 130, 173);
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-navbar .nav-link {
+    color: rgb(100, 130, 173);
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+    color: rgb(149, 174, 198);
+}
+
+.custom-navbar .btn-primary {
+    background-color: rgb(100, 130, 173);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.custom-navbar .btn-primary:hover {
+    background-color: rgb(149, 174, 198);
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    background: rgb(226, 218, 214);
+}
+
+.card {
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+}
+
+.card h3 {
+    margin-top: 1rem;
+    color: rgb(100, 130, 173);
+    text-align: left;
+}
+
+.card p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.feather-icon {
+    width: 40px;
+    height: 40px;
+    color: rgb(196, 223, 223);
+    margin-right: 50rem;
+}
+
+.btn-primary {
+    background-color: rgb(100, 130, 173);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(149, 174, 198);
+}
+
+section {
+    margin-top: 8rem; 
+}
+
+footer {
+    margin-top: 8rem;
+}
+
+footer small {
+    display: block; 
+}
+
+section .text-center h2 {
+    text-align: left; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 800; 
+    color: rgb(100, 130, 173); 
+    margin-bottom: 1.5rem; 
+    margin-top: 8rem;
+}
+
+form .form-control {
+    background-color: transparent; 
+    border: 1px solid rgb(46, 61, 81); 
+    color: rgb(0, 0, 0); 
+}
+
+form .form-control::placeholder {
+    color: rgb(160, 160, 160); 
+}
+
+.btn-primary {
+    background-color: rgb(100, 130, 173);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(149, 174, 198);
+}
+
+.bg-light {
+    background-color: rgba(226, 218, 214, 0.85) !important;
+}
+
+.bg-dark {
+    background-color: rgb(44, 57, 76) !important;
+}
+
+.text-white, .text-light {
+    color: #f9f2e7 !important;
+}
