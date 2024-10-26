@@ -1,7 +1,9 @@
+/* Body styles */
 body {
     background-color: rgb(248, 246, 244);
 }
 
+/* Main Background */
 .main-bg {
     padding: 2rem;
     max-width: 2000px;
@@ -15,6 +17,7 @@ body {
     margin-bottom: 5rem;
 }
 
+/* Media Queries for Small Screens */
 @media (max-width: 768px) {
     .main-bg {
         padding: 1rem;
@@ -23,7 +26,7 @@ body {
 
     .main-bg h2 {
         font-size: 2rem;
-   }
+    }
 
     .main-bg h3 {
         font-size: 0.9rem;
@@ -33,8 +36,19 @@ body {
     .main-bg p {
         font-size: 1rem;
     }
+
+    .page-content {
+        flex-direction: column;
+        padding-right: 0; 
+    }
+
+    .card {
+        flex: 1 1 100%; 
+        margin: 10px 0; 
+    }
 }
 
+/* Main Background Headings */
 .main-bg h2 {
     color: rgb(248, 246, 244);
     font-family: 'Montserrat', sans-serif;
@@ -59,6 +73,7 @@ body {
     padding: 0 20px;
 }
 
+/* Navbar styles */
 .navbar-brand {
     color: rgb(100, 130, 173) !important;
 }
@@ -112,6 +127,7 @@ body {
     background: rgb(226, 218, 214);
 }
 
+/* Card styles */
 .card {
     padding: 2rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -138,6 +154,7 @@ body {
     margin-right: 50rem;
 }
 
+/* Button styles */
 .btn-primary {
     background-color: rgb(100, 130, 173);
     border: none;
@@ -147,6 +164,7 @@ body {
     background-color: rgb(149, 174, 198);
 }
 
+/* Section and Footer styles */
 section {
     margin-top: 8rem; 
 }
@@ -168,6 +186,7 @@ section .text-center h2 {
     margin-top: 8rem;
 }
 
+/* Form styles */
 form .form-control {
     background-color: transparent; 
     border: 1px solid rgb(46, 61, 81); 
@@ -187,6 +206,7 @@ form .form-control::placeholder {
     background-color: rgb(149, 174, 198);
 }
 
+/* Background Colors */
 .bg-light {
     background-color: rgba(226, 218, 214, 0.85) !important;
 }

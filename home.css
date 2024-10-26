@@ -7,7 +7,7 @@ body {
 .main-bg {
     padding: 2rem;
     max-width: 2000px;
-    height: 700px; /* Consider using min-height instead */
+    height: 700px;
     margin: 0 auto;
     background-image: url('images/1.jpg');
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 @media (max-width: 768px) {
     .main-bg {
         padding: 1rem;
-        height: auto; /* Set height to auto for better flexibility */
+        height: auto;
     }
 
     .main-bg h2 {
@@ -38,13 +38,13 @@ body {
     }
 
     .page-content {
-        flex-direction: column; /* Stack cards vertically */
-        padding-right: 0; /* Remove right padding */
+        flex-direction: column;
+        padding-right: 0; 
     }
 
     .card {
-        flex: 1 1 100%; /* Make cards full width */
-        margin: 10px 0; /* Vertical margin */
+        flex: 1 1 100%; 
+        margin: 10px 0; 
     }
 }
 
@@ -171,8 +171,8 @@ body {
 
 @media (max-width: 768px) {
     .card {
-        flex: 1 1 100%; /* Make cards full width */
-        margin: 10px 0; /* Add vertical margin */
+        flex: 1 1 100%; 
+        margin: 10px 0; 
     }
 }
 
@@ -212,7 +212,7 @@ body {
 
 .page-sidebar .latest-trends .trend-item img {
     width: 100%;
-    height: auto; /* Ensure height adjusts automatically */
+    height: auto; 
     margin-top: 0.5rem;
     border-radius: 10px;
 }
